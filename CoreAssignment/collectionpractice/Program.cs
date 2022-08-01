@@ -14,12 +14,30 @@ array3[2] = true;
 array3[3] = false;
 array3[4] = true;
 array3[5] = false;
-array3[6] = false;
-array3[7] = true;
-array3[8] = false;
-array3[9] = true;
+array3[6] = true;
+array3[7] = false;
+array3[8] = true;
+array3[9] = false;
 
 
+for (int i = 0; i <= 10; i++)
+{
+  bool values = i % 2 == 0;
+  bool values1 = i % 1 == 0;
+
+  if ( values1 && values) 
+  {
+    Console.WriteLine( i + " True");
+  } 
+  else if (values1)
+  {
+    Console.WriteLine(i + " False");
+  } 
+  else 
+  {
+    Console.WriteLine(i);
+  }
+} 
 
 
 
