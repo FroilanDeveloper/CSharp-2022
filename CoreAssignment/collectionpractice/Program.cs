@@ -6,7 +6,17 @@
 // 1.3 Create an array of length 10 that alternates between true and false values, starting with true
 
 int[] array1 = {0,1,2,3,4,5,6,7,8,9};
+
+foreach(int listnum in array1){
+  Console.WriteLine(listnum);
+}
+
 string[] array2 = {"Tim", "Martin", "Nick", "Sara"};
+
+foreach(string names in array2){
+  Console.WriteLine(names);
+}
+
 bool[] array3 = new bool[10];
 array3[0] = true;
 array3[1] = false;
@@ -19,6 +29,9 @@ array3[7] = false;
 array3[8] = true;
 array3[9] = false;
 
+foreach (bool nums in array3) {
+  Console.WriteLine(nums);
+}
 
 for (int i = 0; i <= 10; i++)
 {
