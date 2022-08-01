@@ -1,0 +1,15 @@
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\bin\Debug\net6.0\Fundamentals.exe
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\bin\Debug\net6.0\Fundamentals.deps.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\bin\Debug\net6.0\Fundamentals.runtimeconfig.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\bin\Debug\net6.0\Fundamentals.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\bin\Debug\net6.0\Fundamentals.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.csproj.AssemblyReference.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.AssemblyInfoInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.AssemblyInfo.cs
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\refint\Fundamentals.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\Fundamentals.genruntimeconfig.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Fundamentals\obj\Debug\net6.0\ref\Fundamentals.dll
