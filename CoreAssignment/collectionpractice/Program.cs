@@ -75,10 +75,10 @@ foreach (int num in shuffleNums)
 
 Dictionary<string, string> someDictionary = new Dictionary<string, string>() {
   {"name", "joseph"},
-  {"favorite_color", "purple"},
-  {"23", "jonas"}
+  {"ice_cream", "lobster"}
+
 };
 
 Console.WriteLine(someDictionary["name"]);
-Console.WriteLine(someDictionary["23"]);
-Console.WriteLine(someDictionary["favorite_color"]);
+
+Console.WriteLine(someDictionary["ice_cream"]);
