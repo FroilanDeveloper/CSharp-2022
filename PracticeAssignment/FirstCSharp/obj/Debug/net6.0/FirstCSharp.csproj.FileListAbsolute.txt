@@ -1,0 +1,15 @@
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.exe
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.deps.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.runtimeconfig.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.AssemblyReference.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\refint\FirstCSharp.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.genruntimeconfig.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\FirstCSharp\obj\Debug\net6.0\ref\FirstCSharp.dll
