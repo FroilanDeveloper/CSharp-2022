@@ -64,7 +64,8 @@ List<string> flavors = new List<string>() {
   "mint chocolate chip",
   "chocolate",
   "chocolate chip",
-  "lobster"
+  "lobster",
+  "cookies&cream"
 };
 
 flavors.Add("caramel");
@@ -87,16 +88,16 @@ List<int> orderedNums = new List<int>() {
 
 List<int> shuffleNums = new List<int>();
 
-Random rand = new Random();
+
 
 // Console.WriteLine(rand.Next(0,15));
 
-while (orderedNums.Count > 0)
-{
-  int randIdx = rand.Next(0, orderedNums.Count);
-  shuffleNums.Add(orderedNums[randIdx]);
-  orderedNums.RemoveAt(randIdx);
-}
+// while (orderedNums.Count > 0)
+// {
+//   int randIdx = rand.Next(0, orderedNums.Count);
+//   shuffleNums.Add(orderedNums[randIdx]);
+//   orderedNums.RemoveAt(randIdx);
+// }
 
 foreach (int num in shuffleNums)
 {
@@ -104,12 +105,21 @@ foreach (int num in shuffleNums)
 }
 
 
-Dictionary<string, string> someDictionary = new Dictionary<string, string>() {
-  {"name", "joseph"},
-  {"ice_cream", "lobster"}
 
-};
+Dictionary<string, string> persons = new Dictionary<string, string>();
+Random rand = new Random();
 
-Console.WriteLine(someDictionary["name"]);
+for (int i = 0; i < array2.Length; i++)
+{  // were getting a random number from 0 to 8 
+  int randIdx = rand.Next(flavors.Count); // automatically sets to 0.= min, array2.Length = max
+  persons.Add(array2[i], flavors[randIdx]);
+}
 
-Console.WriteLine(someDictionary["ice_cream"]);
+foreach(KeyValuePair<string, string> entry in persons)
+{
+  Console.WriteLine($"Name: {entry.Key} Flavor: {entry.Value}");
+}
+
+
+
+
