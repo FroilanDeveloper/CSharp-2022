@@ -1,5 +1,6 @@
 ﻿// Collections Practice Assignment
 
+
 // 1. Three basic Arrays 
 // 1.1 Create an array to hold interger values 0 through 9
 // 1.2 Create an array the names "Tim","Martin","Nikki",& "Sara"
@@ -82,11 +83,11 @@ foreach (string a in flavors)
 
 // a is a variable it can be named anything
 
-List<int> orderedNums = new List<int>() {
-  1,2,3,4,5,6,7,8,9,10,11,12,13
-};
+// List<int> orderedNums = new List<int>() {
+//   1,2,3,4,5,6,7,8,9,10,11,12,13
+// };
 
-List<int> shuffleNums = new List<int>();
+// List<int> shuffleNums = new List<int>();
 
 
 
@@ -99,10 +100,10 @@ List<int> shuffleNums = new List<int>();
 //   orderedNums.RemoveAt(randIdx);
 // }
 
-foreach (int num in shuffleNums)
-{
-  Console.WriteLine(num);
-}
+// foreach (int num in shuffleNums)
+// {
+//   Console.WriteLine(num);
+// }
 
 
 
@@ -110,7 +111,7 @@ Dictionary<string, string> persons = new Dictionary<string, string>();
 Random rand = new Random();
 
 for (int i = 0; i < array2.Length; i++)
-{  // were getting a random number from 0 to 8 
+{  // were getting a random number from 0 to 7 
   int randIdx = rand.Next(flavors.Count); // automatically sets to 0.= min, array2.Length = max
   persons.Add(array2[i], flavors[randIdx]);
 }
