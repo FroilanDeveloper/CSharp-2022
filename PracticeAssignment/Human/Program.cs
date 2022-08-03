@@ -17,3 +17,15 @@
   Console.WriteLine(alex.Steal(froilan));
   Console.WriteLine(alex.Attack(aaron));
 
+  Samurai juan = new Samurai("Juan", 5, 100, 100);
+
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
+  Console.WriteLine(juan.Attack(froilan));
