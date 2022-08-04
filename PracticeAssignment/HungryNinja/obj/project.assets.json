@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\froil\\OneDrive\\Desktop\\C# 2022\\PracticeAssignment\\Debugging\\Debugging.csproj",
-      "projectName": "Debugging",
-      "projectPath": "C:\\Users\\froil\\OneDrive\\Desktop\\C# 2022\\PracticeAssignment\\Debugging\\Debugging.csproj",
+      "projectUniqueName": "C:\\Users\\froil\\OneDrive\\Desktop\\C# 2022\\PracticeAssignment\\HungryNinja\\HungryNinja.csproj",
+      "projectName": "HungryNinja",
+      "projectPath": "C:\\Users\\froil\\OneDrive\\Desktop\\C# 2022\\PracticeAssignment\\HungryNinja\\HungryNinja.csproj",
       "packagesPath": "C:\\Users\\froil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\froil\\OneDrive\\Desktop\\C# 2022\\PracticeAssignment\\Debugging\\obj\\",
+      "outputPath": "C:\\Users\\froil\\OneDrive\\Desktop\\C# 2022\\PracticeAssignment\\HungryNinja\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\froil\\AppData\\Roaming\\NuGet\\NuGet.Config"
