@@ -6,13 +6,13 @@
 <form action="/survey" method="POST">
   <div>
     <label>Your name: </label>
-    <input type="type" value="FullName">
+    <input type="type" name="FullName" id="FullName">
   </div>
   <div>
     <label>Dojo Location:</label>
     <select name="Location" id="Location">
       <option value="Hawaii">Hawaii</option>
-      <option value="SanFrancisco">San Francisco</option>
+      <option value="San Francisco">San Francisco</option>
       <option value="Chicago">Chicago</option>
       <option value="NewYork">New York</option>
     </select>
@@ -30,5 +30,5 @@
     <label for="Comment">Comment (optional): </label>
     <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
   </div>
-  <button type="submit">Submit</button>
+  <button>Submit</button>
 </form>
