@@ -1,0 +1,34 @@
+@model Survey.Models.HomeSurvey
+
+
+<h1> Dojo Survey </h1>
+
+<form action="/survey" method="POST">
+  <div>
+    <label>Your name: </label>
+    <input type="type" value="FullName">
+  </div>
+  <div>
+    <label>Dojo Location:</label>
+    <select name="Location" id="Location">
+      <option value="Hawaii">Hawaii</option>
+      <option value="SanFrancisco">San Francisco</option>
+      <option value="Chicago">Chicago</option>
+      <option value="NewYork">New York</option>
+    </select>
+  </div>
+  <div>
+    <label>Favorite Language: </label>
+    <select name="Language" id="Language">
+      <option value="C#">C#</option>
+      <option value="MERN">MERN</option>
+      <option value="PYTHON">PYTHON</option>
+      <option value="JAVA">JAVA</option>
+    </select>
+  </div>
+  <div>
+    <label for="Comment">Comment (optional): </label>
+    <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
+  </div>
+  <button type="submit">Submit</button>
+</form>
