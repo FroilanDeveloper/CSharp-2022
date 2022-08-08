@@ -8,28 +8,18 @@ public class PasswordController : Controller
   [HttpGet("/")]
   public IActionResult Generate()
   { 
-  int? Count = HttpContext.Session.GetInt32("amount");
-  if(Count == null )
+    string AlphabetNums = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    Random random = new Random();
+    string password = new string(Enumerable.Repeat(AlphabetNums, 14).Select(s=>s[random.Next(s.Length)]).ToArray()); // generating a string of letters and numbers with a length of 14 characters
+  int? count = HttpContext.Session.GetInt32("amount");
+  if(count == null )
   {
-    HttpContext.Session.SetInt32("amount", 1);
+    count = 0; 
   }
-  Password newPassword = new Password();
-  return View("Random", newPassword);
-  }
-
-  [HttpPost("/addCount")]
-  public IActionResult addCount()
-  {
-    int? PasswordCount = HttpContext.Session.GetInt32("amount");
-    if (PasswordCount == null)
-    {
-      PasswordCount = 1;
-    }
-    else{
-      PasswordCount += 1;
-    }
-    HttpContext.Session.SetInt32("amount", (int)PasswordCount);
-    return RedirectToAction("Generate");
+  count++;
+    HttpContext.Session.SetInt32("amount", (int)count);
+    HttpContext.Session.SetString("password", password);
+  return View("RandomPassword");
   }
 }
 
