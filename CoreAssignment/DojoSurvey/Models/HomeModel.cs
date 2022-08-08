@@ -2,13 +2,14 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Survey.Models;
+namespace DojoSurvey.Models;
 
-public class HomeSurvey
+public class HomeModel
 {
-  [Required]
+  [Required (ErrorMessage = "Name Is Required")]
   [MinLength(2, ErrorMessage = "Atleast 2 characters long")]
   public string FullName { get; set; }
+  
   [Display(Name ="Dojo Location")]
   public string Location { get; set; }
 

@@ -1,4 +1,4 @@
-@model Survey.Models.HomeSurvey
+@model DojoSurvey.Models.HomeModel
 
 
 <h1> Dojo Survey </h1>
@@ -6,12 +6,14 @@
 
 <form action="/survey" method="POST">
   <div>
+    <span asp-validation-for="FullName"></span>
     <label>Your name: </label>
-    <input type="type" name="FullName" id="FullName">
+    <input type="type" asp-for="FullName" id="FullName">
   </div>
   <div>
     <label>Dojo Location:</label>
     <select name="Location" id="Location">
+    <span asp-validation-for="Location"></span>
       <option value="Hawaii">Hawaii</option>
       <option value="San Francisco">San Francisco</option>
       <option value="Chicago">Chicago</option>
@@ -20,6 +22,7 @@
   </div>
   <div>
     <label>Favorite Language: </label>
+    <span asp-validation-for="Language"></span>
     <select name="Language" id="Language">
       <option value="C#">C#</option>
       <option value="MERN">MERN</option>
@@ -29,6 +32,7 @@
   </div>
   <div>
     <label for="Comment">Comment (optional): </label>
+    <span asp-validation-for="Comment"></span>
     <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
   </div>
   <button>Submit</button>
