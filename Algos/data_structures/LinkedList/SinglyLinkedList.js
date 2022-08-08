@@ -2,7 +2,7 @@
  * A class to represents a single item of a SinglyLinkedList that can be
  * linked to other Node instances to form a list of linked nodes.
  */
-  class ListNode {
+class ListNode {
   /**
    * Constructs a new Node instance. Executed when the 'new' keyword is used.
    * @param {any} data The data to be added into this new instance of a Node.
@@ -42,6 +42,39 @@ class SinglyLinkedList {
   }
 
   /**
+   * Concatenates the nodes of a given list onto the back of this list.
+   * - Time: O(?).
+   * - Space: O(?).
+   * @param {SinglyLinkedList} addList An instance of a different list whose
+   *    whose nodes will be added to the back of this list.
+   * @returns {SinglyLinkedList} This list with the added nodes.
+   */
+  concat(addList) {}
+
+  /**
+   * Finds the node with the smallest data and moves that node to the front of
+   * this list.
+   * - Time: O(?).
+   * - Space: O(?).
+   * @returns {SinglyLinkedList} This list.
+   */
+  moveMinToFront() {}
+
+  // EXTRA
+  /**
+   * Splits this list into two lists where the 2nd list starts with the node
+   * that has the given value.
+   * splitOnVal(5) for the list (1=>3=>5=>2=>4) will change list to (1=>3)
+   * and the return value will be a new list containing (5=>2=>4)
+   * - Time: O(?).
+   * - Space: O(?).
+   * @param {any} val The value in the node that the list should be split on.
+   * @returns {SinglyLinkedList} The split list containing the nodes that are
+   *    no longer in this list.
+   */
+  splitOnVal(val) {}
+
+  /**
    * Removes the last node of this list.
    * - Time: O(?).
    * - Space: O(?).
@@ -56,7 +89,6 @@ class SinglyLinkedList {
     delete this.items[this.count];
     return result;
   }
-
 
   /**
    * Determines whether or not the given search value exists in this list.
@@ -91,8 +123,6 @@ class SinglyLinkedList {
    */
   recursiveMax(runner = this.head, maxNode = this.head) {}
 
-
-
   /**
    * Creates a new node with the given data and inserts that node at the front
    * of this list.
@@ -103,9 +133,9 @@ class SinglyLinkedList {
    */
   insertAtFront(data) {
     const newfront = new Node(data);
-    if(this.isEmpty()){
+    if (this.isEmpty()) {
       this.head = newfront;
-      return this
+      return this;
     }
     newfront.next = head;
 
@@ -119,7 +149,7 @@ class SinglyLinkedList {
    * @returns {any} The data from the removed node.
    */
   removeHead(head) {
-    if(head==null){
+    if (head == null) {
       return null;
     }
     // creating variable (buckets) keeping the current head
@@ -230,28 +260,28 @@ class SinglyLinkedList {
   Below commented code depends on insertAtBack method to be completed,
   after completing it, uncomment the code.
   */
-  const emptyList = new SinglyLinkedList();
- // const singleNodeList = new SinglyLinkedList().insertAtBackMany([1]);
- // const biNodeList = new SinglyLinkedList().insertAtBackMany([1, 2]);
- // const firstThreeList = new SinglyLinkedList().insertAtBackMany([1, 2, 3]);
-  const secondThreeList = new SinglyLinkedList().insertAtBackMany([4, 5, 6]);
-  // const unorderedList = new SinglyLinkedList().insertAtBackMany([
-  //   -5, -10, 4, -3, 6, 1, -7, -2,
-  // ]);
-  
-  /* node 4 connects to node 1, back to head */
-  // const perfectLoopList = new SinglyLinkedList().insertAtBackMany([1, 2, 3, 4]);
-  // perfectLoopList.head.next.next.next = perfectLoopList.head;
-  
-  /* node 4 connects to node 2 */
-  // const loopList = new SinglyLinkedList().insertAtBackMany([1, 2, 3, 4]);
-  // loopList.head.next.next.next = loopList.head.next;
-  
-  // const sortedDupeList = new SinglyLinkedList().insertAtBackMany([
-  //   1, 1, 1, 2, 3, 3, 4, 5, 5,
-  // ]);
-  
-  // Print your list like so:
-  // console.log(firstThreeList.toArr());
-  // console.log(biNodeList.toArr());
-  // console.log(singleNodeList.toArr());
+const emptyList = new SinglyLinkedList();
+// const singleNodeList = new SinglyLinkedList().insertAtBackMany([1]);
+// const biNodeList = new SinglyLinkedList().insertAtBackMany([1, 2]);
+// const firstThreeList = new SinglyLinkedList().insertAtBackMany([1, 2, 3]);
+const secondThreeList = new SinglyLinkedList().insertAtBackMany([4, 5, 6]);
+// const unorderedList = new SinglyLinkedList().insertAtBackMany([
+//   -5, -10, 4, -3, 6, 1, -7, -2,
+// ]);
+
+/* node 4 connects to node 1, back to head */
+// const perfectLoopList = new SinglyLinkedList().insertAtBackMany([1, 2, 3, 4]);
+// perfectLoopList.head.next.next.next = perfectLoopList.head;
+
+/* node 4 connects to node 2 */
+// const loopList = new SinglyLinkedList().insertAtBackMany([1, 2, 3, 4]);
+// loopList.head.next.next.next = loopList.head.next;
+
+// const sortedDupeList = new SinglyLinkedList().insertAtBackMany([
+//   1, 1, 1, 2, 3, 3, 4, 5, 5,
+// ]);
+
+// Print your list like so:
+// console.log(firstThreeList.toArr());
+// console.log(biNodeList.toArr());
+// console.log(singleNodeList.toArr());

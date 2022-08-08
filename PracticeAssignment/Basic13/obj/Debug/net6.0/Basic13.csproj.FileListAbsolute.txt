@@ -1,0 +1,15 @@
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\bin\Debug\net6.0\Basic13.exe
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\bin\Debug\net6.0\Basic13.deps.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\bin\Debug\net6.0\Basic13.runtimeconfig.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\bin\Debug\net6.0\Basic13.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\bin\Debug\net6.0\Basic13.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.csproj.AssemblyReference.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.AssemblyInfoInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.AssemblyInfo.cs
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.csproj.CoreCompileInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\refint\Basic13.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\Basic13.genruntimeconfig.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\Basic13\obj\Debug\net6.0\ref\Basic13.dll

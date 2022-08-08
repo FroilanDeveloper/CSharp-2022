@@ -1,0 +1,15 @@
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\bin\Debug\net6.0\IronNinja.exe
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\bin\Debug\net6.0\IronNinja.deps.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\bin\Debug\net6.0\IronNinja.runtimeconfig.json
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\bin\Debug\net6.0\IronNinja.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\bin\Debug\net6.0\IronNinja.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.csproj.AssemblyReference.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.AssemblyInfoInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.AssemblyInfo.cs
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.csproj.CoreCompileInputs.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\refint\IronNinja.dll
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.pdb
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\IronNinja.genruntimeconfig.cache
+C:\Users\froil\OneDrive\Desktop\C# 2022\PracticeAssignment\IronNinja\obj\Debug\net6.0\ref\IronNinja.dll
