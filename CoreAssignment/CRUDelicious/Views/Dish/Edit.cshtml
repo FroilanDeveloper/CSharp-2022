@@ -1,0 +1,54 @@
+@model CRUDelicious.Models.Dish
+
+<div class="container w-75 mx-auto">
+  <h2 class="text-center">Edit @Model.Name</h2>
+  <a href="/">Home</a>
+  @* <form href="Dishes/create" method="POST"> *@         
+  @* Forgot to put asp-route-dishId="@model.DishId"  dishId has to be the same as DishController *@
+  <form class="shadow p-3 rounded" asp-action="UpdatedDish" asp-controller="Dish" asp-route-dishId="@Model.DishId" method="POST" >
+    
+    <div class="mb-3">
+      <label asp-for="Name"></label>
+      <span asp-validation-for="Name" class="text-danger font-weight-bold">
+      </span>
+      <input class="form-control" asp-for="Name">
+    </div>
+
+    <div class="mb-3">
+      <label asp-for="Chef"></label>
+      <span asp-validation-for="Chef" class="text-danger font-weight-bold">
+      </span>
+      <input class="form-control" asp-for="Chef">
+    </div>
+
+    <div class="mb-3">
+      <label asp-for="Tastiness"></label>
+      <select class="form-control" asp-for="Tastiness">
+      <option disabled selected></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label asp-for="Calories"></label>
+      <span asp-validation-for="Calories" class="text-danger font-weight-bold">
+      </span>
+      <input class="form-control" asp-for="Calories">
+    </div>
+
+    <div>
+      <label asp-for="Description"></label>
+      <span asp-validation-for="Description" class="text-danger font-weight-bold">
+      </span>
+    </div>
+    <div>
+    <textarea asp-for="Description" id="" cols="30" rows="5"></textarea>
+    </div>
+
+    <button class="btn btn-success" type="submit">Submit</button>
+  </form>
+</div>
