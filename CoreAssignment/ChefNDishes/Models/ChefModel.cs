@@ -1,28 +1,31 @@
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+#pragma warning disable CS8618
+
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ChefNDishes.Models;
 
+
 public class Chef
 {
-
   [Key]
+
   public int ChefId { get; set; }
 
   [Required(ErrorMessage = "is required")]
+  [Display(Name = "First Name")]
   public string FirstName { get; set; }
 
   [Required(ErrorMessage = "is required")]
+  [Display(Name = "Last Name")]
   public string LastName { get; set; }
 
   [Required(ErrorMessage = "is required")]
-  public DateTime DoB { get; set; }
+  [Display(Name = "Date of Birth")]
+  [DataType(DataType.Date)]
+  public DateTime Age { get; set; }
 
-  public DateTime CreatedAt { get;  set; }  = DateTime.Now;
-
+  public DateTime CreateAt { get; set; } = DateTime.Now;
   public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-  public List<Dish> AllDishes { get; set; } = new List<Dish>();
-
+  public List<Dish> CreatedDishes { get; set; } = new List<Dish>();
 }

@@ -1,0 +1,37 @@
+@model List<Chef>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChefNDishes</title>
+</head>
+
+<body>
+  <h1> <a asp-action="All" asp-controller="Chef">Chef </a> | <a asp-action="AllDishes" asp-controller="Dish">Dishes</a>
+  </h1>
+  <div>
+    <a asp-controller="Chef" asp-action="New">Add a Chef</a>
+    <h3>Check out our roster of Chefs</h3>
+  </div>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th># of Dishes</th>
+    </tr>
+    @foreach (Chef chef in Model)
+    {
+      <tr>
+        <td>@chef.FirstName @chef.LastName</td>
+        <td>@chef.Age.ToString("dd/MM/yyyy")</td>
+        <td>@chef.CreatedDishes.Count</td>
+      </tr>
+    }
+  </table>
+  </ul>
+</body>
+
+</html>

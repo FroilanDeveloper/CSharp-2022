@@ -8,11 +8,24 @@
   <title>CRUDelicious</title>
 </head>
 <body>
-  <h1>Welcome to CRUDelicious</h1>
+  <h1>Chefs | Dishes</h1>
   <div>
     <h3>Check out some recent dishes!</h3>
     <a href="/dishes/new"><h3> Add a Dish</h3></a>
   </div>
+  <h2>Yum, take a look at our tasty dishes!</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Chef</th>
+      <th>Tastiness</th>
+      <th>Calories</th>
+    </tr>
+    <tr>
+      <td>@dish.Name</td>
+      <td>@Dish.</td>
+    </tr>
+  </table>
   <ul>
     @foreach (Dish dish in Model)
     {
