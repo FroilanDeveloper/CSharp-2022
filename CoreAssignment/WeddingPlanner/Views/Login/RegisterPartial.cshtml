@@ -1,0 +1,24 @@
+@model User
+<h1 class="text-center">Register!</h1>
+<form asp-action="RegisterNew" asp-controller="Login" method="post" class="d-flex justify-content-between">
+    <div class="me-4">
+        <label asp-for="FirstName"></label>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <input type="text" class="form-control mb-3" asp-for="FirstName">
+        <label asp-for="LastName"></label>
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <input type="text" class="form-control mb-3" asp-for="LastName">
+        <label asp-for="Email"></label>
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <input type="text" class="form-control mb-3" asp-for="Email">
+        <button class="btn btn-primary" type="submit">Sign Up Now</button>
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <input type="password" class="form-control mb-3" asp-for="Password">
+        <label asp-for="Confirm"></label>
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <input type="password" class="form-control mb-3" asp-for="Confirm">
+    </div>
+</form>

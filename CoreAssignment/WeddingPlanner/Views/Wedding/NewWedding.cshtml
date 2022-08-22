@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>New Wedding</title>
+</head>
+<body class="mx-auto p-3 w-75">
+    <div class="nav d-flex justify-content-between align-items-center mb-4">
+        <h1>Plan Your Wedding</h1>
+        <div class="links w-25 d-flex justify-content-between">
+            <a href="/weddings">Dashboard</a>
+            <a href="/">Logout</a>
+        </div>
+    </div>
+
+    @model Wedding
+    <form asp-action="SubmitWedding" asp-controller="Wedding">
+        <div class="d-flex w-50 mb-4">
+            <label asp-for="PersonOne" class="me-3"></label>
+            <span asp-validation-for="PersonOne" class="text-danger"></span>
+            <input asp-for="PersonOne" class="form-control w-50" type="text">
+        </div>
+        <div class="d-flex w-50 mb-4">
+            <label asp-for="PersonTwo" class="me-3"></label>
+            <span asp-validation-for="PersonTwo" class="text-danger"></span>
+            <input asp-for="PersonTwo" class="form-control w-50" type="text">
+        </div>
+        <div class="d-flex w-50 mb-4">
+            <label asp-for="Date" class="me-5"></label>
+            <span asp-validation-for="Date" class="text-danger"></span>
+            <input asp-for="Date" class="form-control w-50" type="date">
+        </div>
+        <div class="d-flex w-50 mb-4">
+            <label asp-for="Address" class="me-4"></label>
+            <span asp-validation-for="Address" class="text-danger"></span>
+            <input asp-for="Address" class="form-control w-50" type="text">
+        </div>
+        <span asp-validation-for="Creator"></span>
+        <button class="btn btn-primary">Create</button>
+    </form>
+</body>
+</html>
