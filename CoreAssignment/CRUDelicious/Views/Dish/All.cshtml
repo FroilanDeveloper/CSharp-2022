@@ -1,17 +1,21 @@
 @model List<Dish>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRUDelicious</title>
 </head>
+
 <body>
   <h1>Chefs | Dishes</h1>
   <div>
     <h3>Check out some recent dishes!</h3>
-    <a href="/dishes/new"><h3> Add a Dish</h3></a>
+    <a href="/dishes/new">
+      <h3> Add a Dish</h3>
+    </a>
   </div>
   <h2>Yum, take a look at our tasty dishes!</h2>
   <table>
@@ -21,10 +25,14 @@
       <th>Tastiness</th>
       <th>Calories</th>
     </tr>
-    <tr>
-      <td>@dish.Name</td>
-      <td>@Dish.</td>
-    </tr>
+    <ul>
+      @{
+        foreach (var dish in Model)
+        {
+          <li><a href="/food/@dish.DishId">@dish.Name</a> by @dish.Chef</li>
+        }
+      }
+    </ul>
   </table>
   <ul>
     @foreach (Dish dish in Model)
@@ -35,6 +43,5 @@
     }
   </ul>
 </body>
+
 </html>
-
-
