@@ -1,0 +1,44 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MeetUp
+build_property.RootNamespace = MeetUp
+build_property.ProjectDir = c:\Users\froil\OneDrive\Desktop\C# 2022\MeetUpExam\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\froil\OneDrive\Desktop\C# 2022\MeetUpExam
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/Login/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/Login/LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/Login/RegisterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/MeetUp/MeetUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldFVwXE1lZXRVcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/MeetUp/MeetUpDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldFVwXE1lZXRVcERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/MeetUp/NewMeetUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldFVwXE5ld01lZXRVcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/froil/OneDrive/Desktop/C\# 2022/MeetUpExam/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

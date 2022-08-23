@@ -60,10 +60,10 @@ public class WeddingController : Controller
     [HttpGet("/rsvp/{weddingId}")]
     public IActionResult RSVP(int weddingId)
     {
-        Association ass = new Association();
-        ass.UserId = (int)id;
-        ass.WeddingId = weddingId;
-        _context.Associations.Add(ass);
+        Association asso = new Association();
+        asso.UserId = (int)id;
+        asso.WeddingId = weddingId;
+        _context.Associations.Add(asso);
         _context.SaveChanges();
         return RedirectToAction("WeddingHome");
     }

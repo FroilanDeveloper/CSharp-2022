@@ -8,18 +8,18 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Wedding Info</title>
 </head>
-<body class="mx-auto w-75 p-3">
-    <div class="nav d-flex justify-content-between align-items-center mb-4">
+<body>
+    <div>
         <h1>@ViewBag.SingleWedding.People()</h1>
-        <div class="link1">
+        <div>
             <a href="/weddings">Dashboard</a>
         </div>
-        <div class="link2">
+        <div>
             <a href="/">Logout</a>
         </div>
     </div>
-    <div class="body px-4">
-        <h3 class="mb-4">Date: @ViewBag.SingleWedding.Date.ToString("MMMM dd, yyyy")</h3>
+    <div>
+        <h3>Date: @ViewBag.SingleWedding.Date.ToString("yyyy-MM-dd")</h3>
         <h3>Guests:</h3>
             <ul>
                 @foreach (Association user in ViewBag.SingleWedding.Attendees)

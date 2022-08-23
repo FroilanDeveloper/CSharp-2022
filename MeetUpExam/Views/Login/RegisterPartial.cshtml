@@ -1,24 +1,25 @@
 @model User
 <h1 class="text-center">Register!</h1>
-<form asp-action="RegisterNew" asp-controller="Login" method="post" 
+<form asp-action="RegisterNew" asp-controller="Login" method="post">
     <div class="me-4">
         <label asp-for="FirstName"></label>
         <span asp-validation-for="FirstName" class="text-danger"></span>
-        <input type="text" asp-for="FirstName">
+        <input type="text"asp-for="FirstName">
         <label asp-for="LastName"></label>
         <span asp-validation-for="LastName" class="text-danger"></span>
-        <input type="text" asp-for="LastName">
+        <input type="text"asp-for="LastName">
         <label asp-for="Email"></label>
         <span asp-validation-for="Email" class="text-danger"></span>
-        <input type="text" asp-for="Email">
+        <input type="text"asp-for="Email">
         <button class="btn btn-primary" type="submit">Sign Up Now</button>
     </div>
     <div>
         <label asp-for="Password"></label>
         <span asp-validation-for="Password" class="text-danger"></span>
-        <input type="password" asp-for="Password">
+        <input type="password"asp-for="Password">
+        
         <label asp-for="Confirm"></label>
         <span asp-validation-for="Password" class="text-danger"></span>
-        <input type="password" asp-for="Confirm">
+        <input type="password"asp-for="Confirm">
     </div>
 </form>

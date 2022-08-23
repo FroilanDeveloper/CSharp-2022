@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>MeetUp</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Dojo Meet Up Center</h1>
+            <div>
+                <a class="btn btn-primary me-4" href="/meetups">Home</a>
+                <a class="btn btn-danger" href="/">Logout</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 >Create a Meet Up</h2>
+        @model MeetUp
+        <form asp-action="NewMeetUp" asp-controller="MeetUp" asp-route-userId="@ViewBag.SingleUser.UserId">
+            <div class="left">
+                <div>
+                    <label asp-for="Title"></label>
+                    <input class="form-control w-75" asp-for="Title" type="text">
+                <span asp-validation-for="Title"></span>
+                </div>
+                <div>
+                    <label asp-for="DateAndTime"></label>
+                    <input asp-for="DateAndTime" type="datetime-local">
+                <span asp-validation-for="DateAndTime"></span>
+                </div>
+                <div>
+                    <label asp-for="DurationNum"></label>
+                    <input asp-for="DurationNum" class="form-control w-25" type="number">
+                    <select asp-for="DurationAmount">
+                        <option value="Hours">Hours</option>
+                        <option value="Minutes">Minutes</option>
+                        <option value="Days">Days</option>
+                    </select>
+                <span asp-validation-for="DurationNum"></span>
+                </div>
+            </div>
+            <div>
+                <label asp-for="Description"></label>
+                <span asp-validation-for="Description"></span>
+                <textarea asp-for="Description" class="form-control" cols="30" rows="5"></textarea>
+                <div class="d-flex flex-row-reverse mt-3">
+                    <button class="btn btn-primary" type="submit">Create Meet Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
